@@ -1,0 +1,5 @@
+--input BAM, --output-recursive OUTDIR
+s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1143.1/a392a7cb-6edc-4076-93c5-fccb10b01819/G31860.HCC1143.1.bam, s3://kchiba-tokyo/resources/CCLE/wgs/fastq/G31860.HCC1143.1
+s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1143BL.1/ff1030e6-4ad9-41c7-889a-0ae8ba906861/G31860.HCC1143BL.1.bam, s3://kchiba-tokyo/resources/CCLE/wgs/fastq/G31860.HCC1143BL.1
+s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1954.6/65381caa-94d6-4a2f-8d1c-a80c6493c401/G31860.HCC1954.6.bam, s3://kchiba-tokyo/resources/CCLE/wgs/fastq/G31860.HCC1954.6
+s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1954BL.1/164ff095-e9b4-4a90-a428-abb28ed6406c/G31860.HCC1954BL.1.bam, s3://kchiba-tokyo/resources/CCLE/wgs/fastq/G31860.HCC1954BL.1

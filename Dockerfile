@@ -10,6 +10,10 @@ RUN unzip `basename ${GDC_CLIENT_ZIP}` \
   && mv ./gdc-client /usr/local/bin
 
 # Install Picard to convert bam to fastq
-RUN apt-get install -y default-jdk
-RUN wget -q https://github.com/broadinstitute/picard/releases/download/2.18.7/picard.jar
-# RUN mv ./picard.jar /picard.jar
+ARG BIOBAM_GZ=https://github.com/gt1/biobambam/releases/download/0.0.191-release-20150401083643/biobambam-0.0.191-release-20150401083643-x86_64-etch-linux-gnu.tar.gz
+RUN apt-get install -y tar
+RUN wget -q ${BIOBAM_GZ}
+RUN tar xzvf `basename ${BIOBAM_GZ}` \
+  && rm `basename ${BIOBAM_GZ}` \
+  && mv ./biobambam-0.0.191-release-20150401083643-x86_64-etch-linux-gnu/bin/* /usr/local/bin \
+  && mv ./biobambam-0.0.191-release-20150401083643-x86_64-etch-linux-gnu/lib/* /usr/local/lib

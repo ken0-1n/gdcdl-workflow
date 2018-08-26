@@ -1,0 +1,6 @@
+--env TARGET_GENOME_UUID, --output-recursive OUTDIR
+b5cc3b41-ce83-478a-a8da-c59cf589077e, s3://kchiba-tokyo/resources/CCLE/wgs/bam/G15509.K-562.2
+a392a7cb-6edc-4076-93c5-fccb10b01819, s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1143.1
+ff1030e6-4ad9-41c7-889a-0ae8ba906861, s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1143BL.1
+65381caa-94d6-4a2f-8d1c-a80c6493c401, s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1954.6
+164ff095-e9b4-4a90-a428-abb28ed6406c, s3://kchiba-tokyo/resources/CCLE/wgs/bam/G31860.HCC1954BL.1
